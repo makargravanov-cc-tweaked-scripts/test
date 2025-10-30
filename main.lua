@@ -14,3 +14,5 @@ function main()
         print("Id = {}, fuel = {}, pos = {}, {}, {}",turtle.id, turtle.fuel, turtle.pos.x, turtle.pos.y, turtle.pos.z)
     end
 end
+
+main()
