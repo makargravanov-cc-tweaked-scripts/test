@@ -11,6 +11,6 @@ turtles = {
 
 function main()
     for _, turtle in ipairs(turtles) do
-        print(turtle)
+        print("Id = {}, fuel = {}, pos = {}, {}, {}",turtle.id, turtle.fuel, turtle.pos.x, turtle.pos.y, turtle.pos.z)
     end
 end
